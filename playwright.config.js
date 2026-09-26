@@ -73,7 +73,9 @@ const capability = {
 	"LT:Options": {
 		"video": true,
 		"platform": "Windows 10",
+		"network": true,
 		"tunnel": true,
-		"console": true
+		"console": true,
+		"accessibility": true
 	}
 }
