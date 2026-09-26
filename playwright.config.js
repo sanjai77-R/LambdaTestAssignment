@@ -67,3 +67,13 @@ export default defineConfig({
   // },
 });
 
+const capability = {
+	"browserName": "Chrome",
+	"browserVersion": "153.0",
+	"LT:Options": {
+		"video": true,
+		"platform": "Windows 10",
+		"tunnel": true,
+		"console": true
+	}
+}
